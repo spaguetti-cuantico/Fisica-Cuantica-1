@@ -1,0 +1,36 @@
+*****************************************************************
+Archivo de configuracion:
+Nombre de libreria:             input_reader_pozo_header.c
+Nombre de struct:               c
+Nombre de funcion de lectura:   lee_configuracion
+
+Variables:
+
+	int n=1001
+
+	int ilist=51
+
+Borde izquierdo
+	double a=-0.5
+
+Borde derecho
+	double b=0.5
+
+Funcion de onda para listar, 0 = fundamental
+	int nivel_elegido=0
+	
+Carga del electron (x 10^-19)
+	double electron_charge=1.60219
+
+h barra (x10^-34)
+	double h=1.05459
+
+una en kg (x10^-27)
+	double uma=1.66053
+
+Masa en kg
+	double muma=1.0
+	
+Potencial del pozo en eV
+	double V0=1.0
+*****************************************************************

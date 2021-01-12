@@ -1,0 +1,31 @@
+*****************************************************************
+Archivo de configuracion:
+Nombre de libreria:             rotor_1D_header.c
+Nombre de struct:               configuration
+Nombre de funcion de lectura:   lee_configuracion
+
+Variables:
+h barra, pero no se usa, las energias se dan en unidades de hb^2/(2*Inercia)
+	double hb=1.05459e-34
+
+l = m maximo ( -l <= m <= l, i = m+l, 0<=i<n, n = 2l+1)
+	int l=40
+	
+numero de funcion inicial
+	int nfun_i=0
+
+numero de funcion final
+	int nfun_f=1
+
+incremento de phi para listar
+	double dphiL=5.0
+
+Minimo potencial
+	double V0=-20
+
+bias del potencial(minimos no equivalentes).
+	double epsilon=0.0
+
+para potencial V0cos(nv*phi)
+	int nv=2
+*****************************************************************
